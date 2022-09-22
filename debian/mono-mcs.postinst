@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "configure" ]; then
+	# clean up obsolete alternatives, can be removed after bullseye
+	update-alternatives --remove c-sharp-compiler /usr/bin/mcs
+fi
+
+#DEBHELPER#

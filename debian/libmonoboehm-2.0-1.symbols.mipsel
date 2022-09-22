@@ -1,0 +1,16 @@
+#include "libmonoboehm-2.0-1.symbols"
+ GC_allocate_lock@Base 4.6.1.3
+ GC_apply_to_maps@Base 4.1.0.1738
+ GC_err_write@Base 4.1.0.1738
+ GC_get_nprocs@Base 4.1.0.1738
+ GC_key_create@Base 4.1.0.1738
+ GC_linux_stack_base@Base 4.1.0.1738
+ GC_print_address_map@Base 4.1.0.1738
+ GC_remove_specific@Base 4.1.0.1738
+ GC_repeat_read@Base 4.6.1.3
+ GC_set_stackbottom@Base 4.1.0.1738
+ GC_setspecific@Base 4.1.0.1738
+ GC_slow_getspecific@Base 4.1.0.1738
+ mono_aot_register_module@Base 4.1.0.1738
+ mono_install_load_aot_data_hook@Base 4.3.2.147
+

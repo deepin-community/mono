@@ -1,0 +1,4 @@
+MONOARCH=`mono --version | grep Architecture | sed 's/.*:  //' | sed 's/el,.*//'`
+rm -f /usr/lib/mono/aot-cache/${MONOARCH}/`basename #FILE#`
+test ! -d /usr/lib/mono/aot-cache/${MONOARCH} || rmdir --ignore-fail-on-non-empty /usr/lib/mono/aot-cache/${MONOARCH}
+test ! -d /usr/lib/mono/aot-cache || rmdir --ignore-fail-on-non-empty /usr/lib/mono/aot-cache
